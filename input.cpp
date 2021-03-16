@@ -2,6 +2,7 @@
 #include <list>
 #include <string>
 #include <algorithm>
+#include <Windows.h>
 
 const float mars_gravity = 0.38;
 const float mercury_gravity = 0.38;
@@ -83,5 +84,6 @@ int main() {
 
     std::cout << "Your weight on the planet " << planet << " is " << newWeight << " kg" <<std::endl;
     //weight = mass*surface gravity
-    return 0;
+    main();
+    //return 0;
 }
