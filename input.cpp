@@ -2,7 +2,6 @@
 #include <list>
 #include <string>
 #include <algorithm>
-#include <Windows.h>
 
 const float mars_gravity = 0.38;
 const float mercury_gravity = 0.38;
